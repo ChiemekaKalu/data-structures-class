@@ -184,6 +184,16 @@ int main()
 	}
 
 
+	for(int i = 0; i < 160; i++)
+	{
+
+		hashTable[i].collisions.destroy_list();
+	}
+
+
+	cout << "MEMORY CLEARED. GOODBYE." << endl;
+
+
 	return 0;
 
 }
